@@ -1,9 +1,3 @@
-Alright, here’s a **full revision notes document** for everything you’ve learned in **Next.js** so far —
-
-combining today’s learning, your earlier learning, and adding the missing definitions, differences, and code examples.
-
----
-
 ## **📒 Next.js Complete Revision Notes**
 
 ---
@@ -216,11 +210,3 @@ export default async function BlogPost({ params }) {
   const time = new Date().toISOString(); // Shows current time
   return <h1>Post {params.id} at {time}</h1>;
 }
-
-```
-
----
-
-If you want, I can now **add a quick “how to test if your page is static or dynamic” section** so you can confirm with real examples instead of `new Date()` confusion.
-
-That would make your notes even more practical.
